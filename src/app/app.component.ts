@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PDD';
+  title = '拼多多';
+  categroyList =['手机','电脑','冰箱']
 }
