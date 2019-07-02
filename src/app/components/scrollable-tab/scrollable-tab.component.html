@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor='let menu of menus;let i = index; let f = even; trackBy:menu?menu.title:null;'>
+    <a href="#" [class.f]="f" [class.active]="i === selectedIndex" >{{menu.title}}</a>
+  </li>
+
+</ul>

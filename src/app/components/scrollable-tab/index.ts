@@ -1,0 +1,1 @@
+export * from './scrollable-tab.component'; // 暴露出去方便以后复用此组件
